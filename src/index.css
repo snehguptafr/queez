@@ -1,6 +1,21 @@
+html{
+  /* background-image: url(./components/blueblob.png), url(./components/yellowblob.png);
+  background-repeat: no-repeat;
+  height: max-content;
+  background-position-x: left, right;
+  background-position-y: bottom, top;
+  background-color: #F5F7FB; */
+}
+
 body {
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
+  background-image: url(./components/blueblob.png), url(./components/yellowblob.png);
+  background-repeat: no-repeat;
+  height: max-content;
+  background-position-x: left, right;
+  background-position-y: bottom, top;
+  background-color: #F5F7FB;
   font-family: -apple-system, BlinkMacSystemFont, "Inter",
     sans-serif;
   -webkit-font-smoothing: antialiased;

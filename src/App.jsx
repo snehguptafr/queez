@@ -25,10 +25,13 @@ function App() {
 	
 	return (
 		start?<main>
-			{questions}
+			<div>
+				{questions}	
+			
 			{isSubmitted?
 				<button onClick={()=>{setStart(false);setIsSubmitted(false);setQuestionsArray([])}}>Play Again</button>:
 				<button onClick={()=>setIsSubmitted(true)}>Submit</button>}
+			</div>
 			</main>:<FirstPage onClick={startQueez}/>
 	);
 }
