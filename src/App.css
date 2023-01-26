@@ -72,6 +72,17 @@ main{
   margin: 10px;;
 }
 
+.submit{
+  width: 100px;
+  height: 35px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  border: none;
+  background: #4D5B9E;
+  color: #F5F7FB;
+  border-radius: 15px;
+}
+
 @media (max-width:750px){
   h2{
     font-size: 20px;

@@ -28,8 +28,8 @@ function App() {
 				{questions}	
 			
 			{isSubmitted?
-				<button onClick={()=>{setStart(false);setIsSubmitted(false);setQuestionsArray([])}}>Play Again</button>:
-				<button onClick={()=>setIsSubmitted(true)}>Submit</button>}
+				<button className="submit" onClick={()=>{setStart(false);setIsSubmitted(false);setQuestionsArray([])}}>Play Again</button>:
+				<button className="submit" onClick={()=>setIsSubmitted(true)}>Submit</button>}
 			</div>
 			</main>:<FirstPage onClick={startQueez}/>
 	);
