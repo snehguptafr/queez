@@ -1,4 +1,8 @@
 /* First Page */
+hr{
+  border: none;
+  border: 0.794239px solid #DBDEF0;
+}
 
 .first-page { 
   
@@ -61,5 +65,18 @@
  /* Questions */
 main{
   max-width: 700px;
-  margin: 5% auto;
+  margin: 10% auto;
+  color: #293264;
+}
+.option{
+  margin: 10px;;
+}
+
+@media (max-width:750px){
+  h2{
+    font-size: 20px;
+  }
+  .quiz-ui{
+    margin: auto 20px;
+  }
 }
