@@ -20,7 +20,6 @@ function App() {
 		questions = questionsArray.map(que => (
 			<Question key={questionsArray.indexOf(que)} submit={isSubmitted} question={que.question} correct={que.correct_answer} incorrect={[...que.incorrect_answers]} />
 		))
-		console.log(questionsArray[0])
 	}
 	
 	return (

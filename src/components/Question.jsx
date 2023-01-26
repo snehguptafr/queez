@@ -6,11 +6,11 @@ export default function Question(props){
                     {isCorrect: false, value:props.incorrect[1]},
                     {isCorrect: false, value:props.incorrect[2]},
                     {isCorrect: true, value:props.correct}])
+    // eslint-disable-next-line
     const [choices, setChoices] = React.useState([])
     React.useEffect(()=> {
         setOptions(prevOptions => prevOptions.sort(()=>Math.random()-0.5))
     }, [])
-    
     // Dont know why but deleting this effect results in an unpleasant bug
     React.useEffect(()=>{
         setChoices(options.map(opt =>{
